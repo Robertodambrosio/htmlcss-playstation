@@ -4,7 +4,7 @@
 
 .jumbo {
     margin-top: 100px;
-    height: 600px;
+    height: 650px;
 }
 
 .mc_bg-jumbo {
@@ -20,4 +20,8 @@
     color: white;
     border-radius: 20px;
     padding: 6px 13px;
+}
+
+.jumbo-bottom img {
+    border-radius: 20px;
 }
