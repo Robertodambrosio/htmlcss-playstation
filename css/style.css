@@ -25,3 +25,13 @@
 .jumbo-bottom img {
     border-radius: 20px;
 }
+
+.mc_main-title {
+    font-size: 40px;
+}
+
+.mc_main-p {
+    color: grey;
+    font-weight: normal;
+    font-size: 20px;
+}
