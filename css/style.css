@@ -1,3 +1,5 @@
+/* ==========HEADER========= */
+
 #header-top {
     background: black;
 
@@ -11,6 +13,8 @@ header {
     display: unset;
 }
 
+
+
 #header-bottom {
     z-index: 100;
 }
@@ -20,6 +24,8 @@ header {
     position: sticky;
     top: 0;
 }
+
+/* ==========JUMBO========= */
 
 .jumbo {
     height: 600px;
@@ -62,6 +68,8 @@ video {
     border-radius: 20px;
 }
 
+/*=============FORMATTAZIONI TESTO==========*/
+
 .mc_main-title {
     font-size: 35px;
 }
@@ -71,6 +79,8 @@ video {
     font-weight: normal;
     font-size: 20px;
 }
+
+/*=============MAIN, BG VARI==========*/
 
 .mc_bgitt2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -87,15 +97,6 @@ video {
     background-color: #161c3b;
 }
 
-footer {
-    background-color: #00439c;
-}
-
-footer ul {
-    list-style: none;
-    color: white;
-}
-
 .mc_ps5 {
     opacity: 50%;
 }
@@ -103,4 +104,15 @@ footer ul {
 .mc_ps5:hover {
     opacity: 1;
     border-bottom: 2px solid blue;
+}
+
+/* =============FOOTER========== */
+
+footer {
+    background-color: #00439c;
+}
+
+footer ul {
+    list-style: none;
+    color: white;
 }
