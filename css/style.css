@@ -50,3 +50,12 @@
 .mc_bgnow {
     background-color: #161c3b;
 }
+
+footer {
+    background-color: #00439c;
+}
+
+footer ul {
+    list-style: none;
+    color: white;
+}
