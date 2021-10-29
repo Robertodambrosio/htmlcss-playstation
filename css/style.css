@@ -37,6 +37,16 @@ header {
     width: 80px;
 }
 
+.mc_chevron {
+    display: inline-block;
+    width: 10px;
+    filter: invert(1);
+}
+
+.mc_chevron:focus {
+    transform: rotate(180deg) !important;
+}
+
 /* ==========JUMBO========= */
 
 .jumbo {
@@ -148,8 +158,7 @@ footer ul {
 
 }
 
-
-@media all and (min-width: 992px) {
+@media all and (min-width: 768px) {
 
     .navbar .has-megamenu {
         position: static !important;
