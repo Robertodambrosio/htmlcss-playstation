@@ -23,6 +23,20 @@ header {
     top: 0;
 }
 
+
+.mc_dropdown {
+    width: 100vh;
+    overflow-y: hidden
+}
+
+.navbar .megamenu {
+    padding: 1rem;
+}
+
+.mc_psicon {
+    width: 80px;
+}
+
 /* ==========JUMBO========= */
 
 .jumbo {
@@ -31,7 +45,7 @@ header {
 
 .mc_content-jumbo {
     position: relative;
-    top: 0;
+    bottom: 0%;
     left: 0;
 }
 
@@ -44,15 +58,6 @@ video {
     left: 0;
     margin-top: 90px;
 }
-
-
-.mc_bg-jumbo {
-    background-image: url(../img/jumbo-bg.png);
-    object-fit: contain;
-    background-position-x: center;
-    background-position-y: top;
-}
-
 
 .mc_btnjumbo {
     background-color: #cd3d0f;
@@ -113,4 +118,48 @@ footer {
 footer ul {
     list-style: none;
     color: white;
+}
+
+
+
+
+/* =====================MEDIA================= */
+
+@media (max-width:578px) {
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+
+    .mc_bg-jumbo {
+        background-image: url(../img/jumbo-bg.png);
+        object-fit: contain;
+        background-position-x: center;
+        background-position-y: top;
+    }
+
+    video {
+        display: none;
+    }
+
+
+}
+
+
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
 }
